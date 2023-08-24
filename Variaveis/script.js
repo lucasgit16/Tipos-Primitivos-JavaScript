@@ -20,15 +20,15 @@
 
 //console.log(area);
 
-//const forma = "triangulo";
-//const alt = 5;
-//const comp = 7;
-//let area;
+const forma = "triangulo";
+const alt = 5;
+const comp = 7;
+let area;
 
-//if (forma === "quadrado") {
-//    area = alt * comp;
-//}   else{
-   // area = (alt * comp) / 2;   
-//}
-
-//console.log(area);
+if (forma === "quadrado") {
+    area = alt * comp;
+}   else{
+    area = (alt * comp) / 2;   
+} 
+ 
+console.log(area); 
